@@ -1,0 +1,11 @@
+{
+    "produtos":[
+        {
+            "img": "../../assets/frango.webp",
+            "nome": "Frango Sadia",
+            "descricao": "Frango Caipira de primeira qualidade",
+            "id": 1,
+            "valor": 30
+        }
+    ]
+}

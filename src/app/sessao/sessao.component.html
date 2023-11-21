@@ -1,0 +1,12 @@
+<div class="conteiner d-flex justify-content-between tamanho" >
+    <div class="card mt-5" style="width: 18rem;" *ngFor="let p of produto">
+        <img src="{{p.img}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{p.nome}}</h5>
+          <h5 class="card-title">{{p.valor |currency : 'BRL'}}</h5>
+          <p class="card-text">{{p.descricao}}</p>
+          <a href="#" class="btn btn-primary container-fluid" (click)="Comprar()">Comprar</a>
+        </div>
+      </div>
+
+</div>
